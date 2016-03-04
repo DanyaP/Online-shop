@@ -1,0 +1,58 @@
+<html>
+    <head>
+        {% load staticfiles %}
+        <title>Магазин Свадебных платьев</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/shop.css' %}">
+    </head>
+
+
+    <body>
+    <div id='custom_background'></div>
+    <div class="container" id="main_container">
+        <ul class="nav nav-pills">
+            <li role="presentation" class="span2">
+            	<a href="#" class="thumbnail">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=19&amp;txt=200%C3%97160&amp;w=200&amp;h=160" alt="...">
+                    <!--div class="caption text-center">Свадебные платья</div></!-->
+                    <strong class="caption text-center">Свадебные платья</strong>
+                </a></li>
+            <li role="presentation" class="span2">
+                <a href="#" class="thumbnail">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=19&amp;txt=200%C3%97160&amp;w=200&amp;h=160" alt="...">
+                    <strong class="caption text-center">Детские платья</strong>
+                </a></li>
+            <li role="presentation" class="span2">
+                <a href="#" class="thumbnail">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=19&amp;txt=200%C3%97160&amp;w=200&amp;h=160" alt="...">
+                    <strong class="caption text-center">Отзывы</strong>
+                </a></li>
+            <li role="presentation" class="span2">
+                <a href="/delivery/" class="thumbnail">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=19&amp;txt=200%C3%97160&amp;w=200&amp;h=160" alt="...">
+                    <strong class="caption text-center">О Нас</strong>
+                </a></li>
+        </ul>
+
+    {% block content %}
+    {% endblock %}
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

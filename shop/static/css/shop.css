@@ -1,0 +1,29 @@
+#contain {
+
+
+}
+
+ul.left-menu li a
+{
+	font-size:100%;
+	color:#BC262C;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+
+body {
+}
+
+#custom_background {
+    width:100%;
+    height:auto;
+    min-height:100%;
+    position:fixed;
+    top:0; left:0;
+    z-index:-1;
+    background-image: url(http://vecherdresses.ru/images/design-backgrounds/000/012/420/12420/original.jpg?1445854399);
+    background-repeat: no-repeat;
+    background-size:100% auto
+}
